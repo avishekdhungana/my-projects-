@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><My ToDo App></My>
+</title>
+        <link rel="stylesheet" href="style.css">
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input {
+      padding: 8px;
+      margin: 5px;
+    }
+    button {
+      padding: 8px 12px;
+    }
+    ul {
+      margin-top: 20px;
+    }
+    li {
+      margin: 5px 0;
+      padding: 6px;
+      background: #f0f0f0;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>To Do App</h1>
+  <input type="text" id="workInput" placeholder="Enter work">
+<input type="text" id="timeInput" placeholder="Enter time">
+<button id="SaveBtn">Save</button>
+
+<ul id="listItem"></ul>
+    <script src="script.js"></script>
+
+
+    <!-- <h2 id="heading">Welcome!</h2>
+
+    <p id="info">Welcome to JavaScript!</p> -->
+    <!-- <h1 id="main-heading">Learning DOM is fun!</h1> -->
+    <!-- <div id="box">This is a box</div> -->
+<!-- <p class="note">i will be Sucessfull one day.</p> -->
+
+    
+
+<!-- 
+       <ul>   
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+  <li>Four</li>
+</ul> -->
+<!-- <input type="text" id="nameInput" placeholder="Type your name">
+<p id="greeting"></p>
+<button id="greetBtn">Greet</button> -->
+
+</body>
+
+
+<!-- //   const item = document.querySelector("li:nth-child(2)"); -->
+<!-- //   console.log(item.innerText);
+
+
+//   const mandu = document.querySelector("p")
+//   mandu.innerText="dom is fun";
+// console.log(mandu.innerText);
+
+// const avi=document.querySelector("h2")
+// avi.innerText="DOM is powerful!";
+// console.log(avi.innerText);
+
+// const jay=document.querySelector("h1")
+// jay.style.color="green";
+// jay.style.backgroundColor="lightgray";
+// jay.style.fontSize="32px";
+// console.log(jay.style.color);
+// console.log(jay.style.backgroundColor);
+// console.log(jay.style.fontSize);
+
+
+// const pant =document.querySelector("div")
+// pant.style.color="white";
+// pant.style.backgroundColor="black";
+// pant.style.padding="20px";
+// pant.style.fontStyle="italic";
+// console.log(pant.style.color);
+// console.log(pant.style.backgroundColor);
+// console.log(pant.style.padding);
+// console.log(pant.style.fontstyle);
+
+
+// const ram =document.querySelector(".note");
+//  ram.style.color="darkblue";
+//  ram.style.fontWeight="bold";
+//  ram.style.border="2px black";
+//  ram.style.margin="10px";
+//  ram.style.display = "block";
+
+// console.log(ram.style.color);
+// console.log(ram.style.fontWeight);
+// console.log(ram.style.border);
+// console.log(ram.style.margin);
+// console.log(ram.style.display);
+
+// const bpx=document.querySelector("p");
+// const box = document.getElementById("nameInput"); // Correct way to select input
+// const btn = document.getElementById("greetBtn");          // button       // button
+
+// box.addEventListener("input", function() {
+//   bpx.innerText = "Hello, " + box.value + "!";
+// });
+
+// const workinput=document.getElementById("workInput");
+// const timeinput = document.getElementById("timeInput")
+// const save = document.getElementById("SaveBtn");
+// const listitem = document.getElementById("listItem");
+
+// const savebtn = save.addEventListener("click",function(){
+//     const work = workinput.value.trim();
+//     const time  =timeinput.value.trim();
+//     if(work===""||time===""){
+//         alert("please write work and time");
+//     }else if(work===""){
+//         alert("please write work");
+//     }else if(time===""){
+//         alert("please write time");
+//     }else{
+//         const li =document.createElement("li");
+//         li.innerText=`${work}-${time}`
+//         listitem.appendChild(li);
+//            // Create Delete button
+//     const deleteBtn = document.createElement("button");
+//     deleteBtn.innerText = "Delete";
+//     deleteBtn.style.marginLeft = "10px";
+//     deleteBtn.addEventListener("click", function () {
+//       listitem.removeChild(li);
+//     });
+
+//     // Create Update button
+//     const updateBtn = document.createElement("button");
+//     updateBtn.innerText = "Update";
+//     updateBtn.style.marginLeft = "5px";
+//     updateBtn.addEventListener("click", function () {
+//       const newWork = prompt("Enter new work:", work);
+//       const newTime = prompt("Enter new time:", time);
+//       if (newWork && newTime) {
+//         li.innerText = `${newWork} - ${newTime}`;
+//         li.appendChild(updateBtn); // Re-attach buttons after update
+//         li.appendChild(deleteBtn);
+//       }
+//     });
+
+//     // Append buttons to li
+//     li.appendChild(updateBtn);
+//     li.appendChild(deleteBtn);
+//     listitem.appendChild(li);
+
+//     // Append li to list
+//         workinput.value="";
+//         timeinput.value="";
+//     }
+// }
+// );
+
+
+
+
+    
+
+
+
+
+</script> 
+</html>
